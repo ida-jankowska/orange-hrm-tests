@@ -2,5 +2,9 @@
   "devDependencies": {
     "cypress": "^15.14.1",
     "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
   }
 }
