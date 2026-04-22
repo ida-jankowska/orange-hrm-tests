@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Run Cypress tests
-        run: npx cypress run --spec "cypress/tests/api/**/*.cy.ts"
+        run: npx cypress run --spec "cypress/tests/**/*.cy.js"
 
       - name: Upload videos (on failure)
         if: failure()
